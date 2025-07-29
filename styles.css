@@ -1,0 +1,33 @@
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.personal-card {
+  background-color: #1f1f1f;
+  border: 2px solid #a855f7;
+  border-radius: 1rem;
+  color: white;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  box-shadow: 0 0 10px #a855f7;
+}
+
+.card-title {
+  color: #a855f7;
+}
+
+.btn-outline-light {
+  border-color: #a855f7;
+  color: #a855f7;
+}
+
+.btn-outline-light:hover {
+  background-color: #a855f7;
+  color: #fff;
+  transition: 0.3s;
+}
