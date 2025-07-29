@@ -1,10 +1,14 @@
 body {
-  background-color: #121212;
   font-family: 'Segoe UI', sans-serif;
+  background-image: url(imagenes/image.png); /* ajusta si tu estructura es distinta */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* asegura que cubra toda la pantalla */
 }
 
 .personal-card {
-  background-color: #1f1f1f;
+  background-color: rgba(31, 31, 31, 0.85); /* 85% opaco */
   border: 2px solid #a855f7;
   border-radius: 1rem;
   color: white;
@@ -30,4 +34,8 @@ body {
   background-color: #a855f7;
   color: #fff;
   transition: 0.3s;
+}
+
+h5 {
+  color: white;
 }
